@@ -1,0 +1,153 @@
+/* .body {
+    font-family: 'Roboto', sans-serif;
+    не понимаю это что-то меняет или нет
+} */  
+
+.header {
+    background: linear-gradient(180deg, rgb(204, 204, 204) 0%, rgb(16, 89, 162) 70%, rgb(59, 148, 237) 100%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+/* цвета для сайта сложно подобрать даже с цифровым колориметром */
+
+.offer_title {
+    width: 400px;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 150px;
+    color: #fff;
+}
+
+.offer_title span {
+    font-size: 36px;
+    color: #fff;
+}
+
+.offer p {
+    margin-left: 150px;
+    color: #fff;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 90px;
+    margin-left: 150px;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right img {
+    width: 400px;
+    margin-right: 150px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 183, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 150px;
+}
+
+/*середина*/
+.main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.main_title {
+    text-align: center;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.block1 h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block2 h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.block3 h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* форма */
+.description {
+    display: block;
+    background-color: rgb(247, 252, 255);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+form input {
+    margin-top: 15px;
+    width: 350px;
+    height: 40px;
+}
+
+form button {
+    margin-top: 15px;
+    width: 350px;
+    height: 40px;
+    background-color: rgba(255, 204, 0, 0.761);
+    margin-bottom: 30px;
+}
+
+.call {
+    padding-bottom: 30px;
+}
+
+/* права */
+.niz {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(180deg, rgb(10, 105, 247) 31%, rgb(139, 142, 194) 100%, rgb(17, 87, 156) 100%, rgb(7, 91, 218) 100%);
+    color: #fff;
+    text-align: center;
+}
+
+.nocolor {
+    text-decoration: none;
+    color: #fff;
+}
